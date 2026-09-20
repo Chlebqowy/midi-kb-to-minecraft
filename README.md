@@ -1,3 +1,4 @@
+Provides key presses, mouse movements, mouse clicks to the game and also outputs would based on the note pressed.
 Requires a soundfont and pipewire routed to the output for sound  
 Kinda rough   
 Works only on X11  
