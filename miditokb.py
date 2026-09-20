@@ -172,7 +172,6 @@ def stop_holding_note(note: int):
         simulate_press(X.KeyRelease, keycode_mapping[note])
     elif note in mouse_hold_mapping:
         simulate_press(X.ButtonRelease, mouse_hold_mapping[note])
-@profile
 def main():
     global pitch, yaw, idle_yaw, yaw_scale, pitch_bend_value, volume_slider_value, midiin, piano, continue_delay, regular_delay
     msg = midiin.get_message()
